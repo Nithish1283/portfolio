@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gadde Nithish - Computer Science undergraduate specializing in Data Science, Java, Web Development, and Database Management. Portfolio showcasing projects and skills.">
+  <meta name="keywords" content="Gadde Nithish, Portfolio, Java Developer, Web Developer, Data Science, Computer Science">
+  <meta name="author" content="Gadde Nithish">
+  <title>Gadde Nithish | Full-Stack Developer & CS Student</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-grid"></div>
+  <div class="bg-orbs">
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+    <div class="bg-orb"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">GN<span>.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-section="home">Home</a>
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+        <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+        <a href="#certifications" class="nav-link" data-section="certifications">Certificates</a>
+        <a href="#education" class="nav-link" data-section="education">Education</a>
+        <a href="#contact" class="nav-cta">Let's Talk →</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-dot"></span>
+            Open to Opportunities
+          </div>
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">
+            <span class="gradient-text">Gadde Nithish</span>
+          </h1>
+          <div class="hero-title-line">
+            <span class="typed-text" id="typedText"></span>
+          </div>
+          <p class="hero-description">
+            A motivated Computer Science undergraduate with a passion for building robust software solutions, designing responsive web applications, and working with databases. Currently pursuing B.Tech in CSE (Data Science).
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="Nithish_Gadde.pdf" download="Nithish_Gadde_Resume.pdf" class="btn btn-secondary">
+              Download CV
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Get in Touch
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-count="4">0</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="6">0</div>
+              <div class="stat-label">Weeks Interned</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="8">0</div>
+              <div class="stat-label">Tech Skills</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="profile.jpg" alt="Gadde Nithish - Full Stack Developer" class="hero-image">
+            <div class="floating-badge">
+              <div class="badge-icon purple">💻</div>
+              <span>Java Developer</span>
+            </div>
+            <div class="floating-badge">
+              <div class="badge-icon green">🌐</div>
+              <span>Web Developer</span>
+            </div>
+            <div class="floating-badge">
+              <div class="badge-icon pink">🗄️</div>
+              <span>Database Pro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> About Me</div>
+        <h2 class="section-title">Get to Know Me Better</h2>
+        <p class="section-subtitle">A glimpse into who I am beyond the code</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-container reveal">
+          <div class="about-image-card">
+            <img src="profile.jpg" alt="Gadde Nithish portrait">
+          </div>
+        </div>
+        <div class="about-content reveal reveal-delay-2">
+          <p class="about-text">
+            I'm a detail-oriented Computer Science (Data Science) undergraduate with a strong foundation in software development, database management, and web technologies. My journey in tech started with curiosity and has grown into a passion for building solutions that matter.
+          </p>
+          <p class="about-text">
+            I have hands-on experience developing academic projects using Java, JSP, Servlets, JDBC, HTML, CSS, JavaScript, and MySQL. I love designing responsive web applications and implementing secure database operations. I believe in writing clean, modular code that is both readable and maintainable.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <div class="info-label">Location</div>
+                <div class="info-value">Andhra Pradesh, India</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🎓</div>
+              <div>
+                <div class="info-label">Degree</div>
+                <div class="info-value">B.Tech CSE (Data Science)</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🌐</div>
+              <div>
+                <div class="info-label">Languages</div>
+                <div class="info-value">English, Telugu</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🎯</div>
+              <div>
+                <div class="info-label">Interests</div>
+                <div class="info-value">Music, Cricket</div>
+              </div>
+            </div>
+          </div>
+          <a href="Nithish_Gadde.pdf" download="Nithish_Gadde_Resume.pdf" class="btn btn-primary" id="downloadResumeBtn">
+            Download Resume
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> My Skills</div>
+        <h2 class="section-title">Technologies & Tools</h2>
+        <p class="section-subtitle">The technologies I work with to bring ideas to life</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Programming -->
+        <div class="skill-card reveal">
+          <div class="skill-icon code">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Programming Languages</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px;">Core languages for building robust applications and data pipelines</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">OOP Concepts</span>
+          </div>
+        </div>
+        <!-- Web Tech -->
+        <div class="skill-card reveal reveal-delay-1">
+          <div class="skill-icon web">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <h3>Web Technologies</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px;">Building responsive and interactive web experiences</p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">JSP</span>
+            <span class="skill-tag">Servlets</span>
+          </div>
+        </div>
+        <!-- Database -->
+        <div class="skill-card reveal reveal-delay-2">
+          <div class="skill-icon db">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+          </div>
+          <h3>Database & Backend</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px;">Secure data management and server-side logic</p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">JDBC</span>
+            <span class="skill-tag">CRUD Operations</span>
+            <span class="skill-tag">PreparedStatements</span>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-card reveal reveal-delay-3">
+          <div class="skill-icon tools">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Tools & Platforms</h3>
+          <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 8px;">Development environments and version control</p>
+          <div class="skill-tags">
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Eclipse IDE</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Django</span>
+            <span class="skill-tag">MVC Architecture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> My Projects</div>
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">A selection of projects that showcase my skills and dedication</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1: Restaurant Management System -->
+        <div class="project-card reveal">
+          <img src="restaurant_preview.jpg" alt="Restaurant Management System" class="project-image">
+          <div class="project-content">
+            <div class="project-category">
+              <span>●</span> Full-Stack Web Application
+            </div>
+            <h3>Restaurant Management System</h3>
+            <p class="project-description">
+              A web-based restaurant operations platform for menu item cataloging, customer orders, and billing workflows.
+            </p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>JSP</span>
+              <span>Servlets</span>
+              <span>JDBC</span>
+              <span>MySQL</span>
+            </div>
+            <ul class="project-features">
+              <li>Food menu item catalog management & dynamic pricing updates</li>
+              <li>Customer registration, secure login & session management</li>
+              <li>Interactive ordering module & automated total bill calculation</li>
+              <li>Relational database in MySQL with PreparedStatements to prevent SQL injection</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Nithish1283/RestaurantManagementSystem" target="_blank" rel="noopener noreferrer" class="project-github-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2: Student Performance Prediction -->
+        <div class="project-card reveal reveal-delay-1">
+          <img src="student_ml_preview.jpg" alt="Student Performance Prediction System" class="project-image">
+          <div class="project-content">
+            <div class="project-category">
+              <span>●</span> Data Science & ML Web App
+            </div>
+            <h3>Student Performance Prediction System</h3>
+            <p class="project-description">
+              An intelligent web application predicting student academic performance using machine learning algorithms and historical analytics.
+            </p>
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Machine Learning</span>
+              <span>MySQL</span>
+            </div>
+            <ul class="project-features">
+              <li>Predictive modeling for student academic performance outcomes</li>
+              <li>Data preprocessing, feature selection & performance trend analytics</li>
+              <li>Role-based dashboards for Remote Users & Administrative Service Providers</li>
+              <li>Backend MySQL integration for dataset and prediction storage</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Nithish1283/Students_Performance_Prediction" target="_blank" rel="noopener noreferrer" class="project-github-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3: Student Management System -->
+        <div class="project-card reveal reveal-delay-2">
+          <img src="project2.png" alt="Student Management System" class="project-image">
+          <div class="project-content">
+            <div class="project-category">
+              <span>●</span> Web Application
+            </div>
+            <h3>Student Management System</h3>
+            <p class="project-description">
+              A dynamic student management web application with secure authentication, session management, and responsive design.
+            </p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>JSP</span>
+              <span>Servlets</span>
+              <span>JDBC</span>
+              <span>MySQL</span>
+            </div>
+            <ul class="project-features">
+              <li>Secure Admin login with session management</li>
+              <li>MVC architecture for clean code organization</li>
+              <li>Complete Student CRUD operations</li>
+              <li>SQL injection prevention via PreparedStatements</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Nithish1283/StudentManagementSystem" target="_blank" rel="noopener noreferrer" class="project-github-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4: Employee Management System -->
+        <div class="project-card reveal reveal-delay-3">
+          <img src="project1.png" alt="Employee Management System" class="project-image">
+          <div class="project-content">
+            <div class="project-category">
+              <span>●</span> Java Desktop Application
+            </div>
+            <h3>Employee Management System</h3>
+            <p class="project-description">
+              A Java-based enterprise employee management software implementing OOP principles and database persistence.
+            </p>
+            <div class="project-tech">
+              <span>Java</span>
+              <span>JDBC</span>
+              <span>MySQL</span>
+            </div>
+            <ul class="project-features">
+              <li>Full CRUD operations for employee records management</li>
+              <li>Object-Oriented Programming (OOP) design patterns</li>
+              <li>Exception handling & safe database transactions</li>
+              <li>Streamlined department and record tracking</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Nithish1283/EmployeeManagementSystem" target="_blank" rel="noopener noreferrer" class="project-github-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> Experience</div>
+        <h2 class="section-title">Professional Journey</h2>
+        <p class="section-subtitle">Real-world exposure through hands-on internship experience</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">3-Month Internship (Dec 2025 – Mar 2026)</div>
+            <h3>MERN Stack Developer Intern</h3>
+            <h4>Codec Technologies Pvt. Ltd. (Google for Education Partner) & AICTE</h4>
+            <p>Engaged in a 3-month AICTE & ICAC approved internship program delivering full-stack web solutions using modern MERN technologies.</p>
+            <ul>
+              <li>Developed full-stack web features using MongoDB, Express.js, React.js, and Node.js</li>
+              <li>Built RESTful APIs and integrated frontend React components with server-side endpoints</li>
+              <li>Collaborated on state management, asynchronous data flows, and database interactions</li>
+              <li>Gained hands-on exposure to cloud developer workflows and web architecture standards</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-date">6-Week Internship (July 2024)</div>
+            <h3>Web Development Intern</h3>
+            <h4>ExcelR Edtech Pvt. Ltd. & APSCHE</h4>
+            <p>Gained practical experience in frontend web development, building responsive interfaces and collaborating with teams on real-world projects.</p>
+            <ul>
+              <li>Developed responsive and interactive web pages using HTML, CSS, and JavaScript</li>
+              <li>Improved website layout responsiveness and enhanced user experience</li>
+              <li>Worked on frontend development — forms, navigation menus, and UI components</li>
+              <li>Collaborated with team members to understand project requirements</li>
+              <li>Gained exposure to web application development lifecycle & debugging</li>
+              <li>Enhanced problem-solving and communication skills through project-based learning</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> Education</div>
+        <h2 class="section-title">Academic Background</h2>
+        <p class="section-subtitle">My educational journey that shaped my technical foundation</p>
+      </div>
+      <div class="education-grid">
+        <div class="edu-card reveal">
+          <div class="edu-year">2022 — 2026</div>
+          <div class="edu-degree">B.Tech — Computer Science & Engineering (Data Science)</div>
+          <div class="edu-institution">Rise Krishna Sai Prakasam Group of Institutions</div>
+          <div class="edu-gpa">
+            📊 CGPA: <span class="gpa-value">6.5 / 10</span>
+          </div>
+        </div>
+        <div class="edu-card reveal reveal-delay-1">
+          <div class="edu-year">2020 — 2022</div>
+          <div class="edu-degree">Intermediate (MPC)</div>
+          <div class="edu-institution">Narayana Junior College</div>
+          <div class="edu-gpa">
+            📊 CGPA: <span class="gpa-value">6.5 / 10</span>
+          </div>
+        </div>
+        <div class="edu-card reveal reveal-delay-2">
+          <div class="edu-year">2019 — 2020</div>
+          <div class="edu-degree">Secondary School Certificate (SSC)</div>
+          <div class="edu-institution">Rathnam E.M High School</div>
+          <div class="edu-gpa">
+            📊 CGPA: <span class="gpa-value">7.7 / 10</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> Credentials</div>
+        <h2 class="section-title">Certifications & Training</h2>
+        <p class="section-subtitle">Verified industry certifications and virtual internships</p>
+      </div>
+      <div class="certifications-grid">
+        <!-- Cert 1: MERN Stack -->
+        <div class="cert-card reveal">
+          <div class="cert-badge google">MERN Stack</div>
+          <h3>MERN Stack Developer Internship</h3>
+          <div class="cert-issuer">Codec Technologies Pvt. Ltd. & AICTE</div>
+          <div class="cert-meta">Google for Education Partner | Dec 2025 – Mar 2026</div>
+          <p class="cert-desc">3-Month AICTE & ICAC approved intensive internship covering full-stack MongoDB, Express, React, and Node.js web development.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">Verified Certificate</span>
+          </div>
+        </div>
+        <!-- Cert 2: EduSkills Full Stack -->
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-badge eduskills">Full Stack</div>
+          <h3>Web Full Stack Developer Internship</h3>
+          <div class="cert-issuer">EduSkills & APSCHE</div>
+          <div class="cert-meta">120 Hours Program | Issue Date: Dec 31, 2024</div>
+          <p class="cert-desc">Short-term technical internship on modern Web Full Stack Development organized by EduSkills in collaboration with APSCHE.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">Cert No: 5C5IN0RYTDZ1</span>
+          </div>
+        </div>
+        <!-- Cert 3: Data Science Master -->
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-badge datascience">Data Science</div>
+          <h3>Data Science Master Virtual Internship</h3>
+          <div class="cert-issuer">EduSkills, AICTE & ALTAIR</div>
+          <div class="cert-meta">10 Weeks | July – Sept 2024 | Grade: E (Excellent)</div>
+          <p class="cert-desc">Comprehensive virtual internship program covering data analysis, predictive modeling algorithms, and data science pipelines.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">Grade: E (Outstanding)</span>
+          </div>
+        </div>
+        <!-- Cert 4: Google AI-ML Tech Camp -->
+        <div class="cert-card reveal">
+          <div class="cert-badge aiml">Google AI-ML</div>
+          <h3>Google AI-ML TECH CAMP</h3>
+          <div class="cert-issuer">Google for Developers & EduSkills</div>
+          <div class="cert-meta">3-Day Tech Camp | Aug 8 – Aug 10, 2024</div>
+          <p class="cert-desc">Intensive participation camp focused on Google AI-ML fundamentals, machine learning models, and intelligent application design.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">C.No: 0808100824448</span>
+          </div>
+        </div>
+        <!-- Cert 5: ExcelR Web Dev -->
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-badge web">Web & JS</div>
+          <h3>Web Development & JavaScript</h3>
+          <div class="cert-issuer">ExcelR Edtech Pvt. Ltd. & APSCHE</div>
+          <div class="cert-meta">6 Weeks Short-Term Internship | July 31, 2024</div>
+          <p class="cert-desc">Hands-on frontend web development, JavaScript ES6+, DOM manipulation, and dynamic user interface implementation.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">Cert No: EXCELR-83482</span>
+          </div>
+        </div>
+        <!-- Cert 6: Tap Academy -->
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-badge java">Full Stack Java</div>
+          <h3>Full Stack Java Development</h3>
+          <div class="cert-issuer">Tap Academy</div>
+          <div class="cert-meta">Completed 2026</div>
+          <p class="cert-desc">In-depth Java full-stack software development training covering Java OOP, JDBC, JSP, Servlets, and MySQL database management.</p>
+          <div class="cert-footer">
+            <span class="cert-tag">Certified Java Developer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label"><span class="dot"></span> Contact</div>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Ready to Build<br>Something Great?</h3>
+          <p>I'm currently looking for new opportunities and my inbox is always open. Whether you have a question or just want to connect — drop me a message!</p>
+          <div class="contact-links">
+            <a href="mailto:gaddenithishyadav@gmail.com" class="contact-link-item" id="contact-email">
+              <div class="contact-link-icon">📧</div>
+              <div class="contact-link-text">
+                <h4>Email</h4>
+                <span>gaddenithishyadav@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+919032281283" class="contact-link-item" id="contact-phone">
+              <div class="contact-link-icon">📱</div>
+              <div class="contact-link-text">
+                <h4>Phone</h4>
+                <span>+91 9032281283</span>
+              </div>
+            </a>
+            <div class="contact-link-item" id="contact-location">
+              <div class="contact-link-icon">📍</div>
+              <div class="contact-link-text">
+                <h4>Location</h4>
+                <span>Kesavaram, Nellore District, AP</span>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/gadde-nithish-8094783a3" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="contact-linkedin">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </div>
+              <div class="contact-link-text">
+                <h4>LinkedIn</h4>
+                <span>Gadde Nithish</span>
+              </div>
+            </a>
+            <a href="https://github.com/Nithish1283" target="_blank" rel="noopener noreferrer" class="contact-link-item" id="contact-github">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div class="contact-link-text">
+                <h4>GitHub</h4>
+                <span>Nithish1283</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal reveal-delay-2">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="form-name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="form-email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" id="form-subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea id="form-message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="form-submit">
+              Send Message  →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">
+          © 2026 Gadde Nithish. Built with <span class="heart">♥</span> and lots of ☕
+        </p>
+        <div class="footer-socials">
+          <a href="mailto:gaddenithishyadav@gmail.com" class="social-link" id="footer-email" aria-label="Email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="tel:+919032281283" class="social-link" id="footer-phone" aria-label="Phone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/gadde-nithish-8094783a3" target="_blank" rel="noopener noreferrer" class="social-link" id="footer-linkedin" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/Nithish1283" target="_blank" rel="noopener noreferrer" class="social-link" id="footer-github" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="#home" class="social-link" id="footer-home" aria-label="Home">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // =============================
+    // Custom Cursor
+    // =============================
+    const cursorDot = document.getElementById('cursorDot');
+    const cursorRing = document.getElementById('cursorRing');
+    let mouseX = 0, mouseY = 0;
+    let ringX = 0, ringY = 0;
+
+    document.addEventListener('mousemove', (e) => {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      cursorDot.style.left = mouseX + 'px';
+      cursorDot.style.top = mouseY + 'px';
+    });
+
+    function animateCursor() {
+      ringX += (mouseX - ringX) * 0.15;
+      ringY += (mouseY - ringY) * 0.15;
+      cursorRing.style.left = ringX + 'px';
+      cursorRing.style.top = ringY + 'px';
+      requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+
+    // Scale cursor on interactive elements
+    document.querySelectorAll('a, button, .skill-card, .project-card, .edu-card, .timeline-card, .contact-link-item').forEach(el => {
+      el.addEventListener('mouseenter', () => {
+        cursorRing.style.width = '60px';
+        cursorRing.style.height = '60px';
+        cursorRing.style.borderColor = 'rgba(108, 99, 255, 0.8)';
+        cursorDot.style.transform = 'scale(1.5)';
+      });
+      el.addEventListener('mouseleave', () => {
+        cursorRing.style.width = '40px';
+        cursorRing.style.height = '40px';
+        cursorRing.style.borderColor = 'rgba(108, 99, 255, 0.5)';
+        cursorDot.style.transform = 'scale(1)';
+      });
+    });
+
+    // =============================
+    // Typing Effect
+    // =============================
+    const typedTextEl = document.getElementById('typedText');
+    const phrases = [
+      'Full-Stack Developer',
+      'Java Enthusiast',
+      'Web Developer',
+      'Data Science Student',
+      'Problem Solver'
+    ];
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typingSpeed = 80;
+
+    function typeEffect() {
+      const currentPhrase = phrases[phraseIndex];
+
+      if (isDeleting) {
+        typedTextEl.textContent = currentPhrase.substring(0, charIndex - 1);
+        charIndex--;
+        typingSpeed = 40;
+      } else {
+        typedTextEl.textContent = currentPhrase.substring(0, charIndex + 1);
+        charIndex++;
+        typingSpeed = 80;
+      }
+
+      if (!isDeleting && charIndex === currentPhrase.length) {
+        isDeleting = true;
+        typingSpeed = 2000; // Pause at end
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        phraseIndex = (phraseIndex + 1) % phrases.length;
+        typingSpeed = 500; // Pause before next word
+      }
+
+      setTimeout(typeEffect, typingSpeed);
+    }
+    typeEffect();
+
+    // =============================
+    // Counter Animation
+    // =============================
+    function animateCounters() {
+      const counters = document.querySelectorAll('.stat-number');
+      counters.forEach(counter => {
+        const target = parseInt(counter.dataset.count);
+        const duration = 2000;
+        const increment = target / (duration / 16);
+        let current = 0;
+
+        const updateCounter = () => {
+          current += increment;
+          if (current < target) {
+            counter.textContent = Math.ceil(current);
+            requestAnimationFrame(updateCounter);
+          } else {
+            counter.textContent = target + '+';
+          }
+        };
+        updateCounter();
+      });
+    }
+
+    // =============================
+    // Navbar Scroll Effect
+    // =============================
+    const navbar = document.getElementById('navbar');
+    const scrollTopBtn = document.getElementById('scrollTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+
+      // Scroll-to-top button
+      if (window.scrollY > 500) {
+        scrollTopBtn.classList.add('visible');
+      } else {
+        scrollTopBtn.classList.remove('visible');
+      }
+
+      // Active nav link
+      updateActiveNav();
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // =============================
+    // Active Nav Link on Scroll
+    // =============================
+    function updateActiveNav() {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.nav-link');
+      let current = '';
+
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 150;
+        if (window.scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.dataset.section === current) {
+          link.classList.add('active');
+        }
+      });
+    }
+
+    // =============================
+    // Mobile Navigation
+    // =============================
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    // Close nav on link click (mobile)
+    document.querySelectorAll('.nav-link, .nav-cta').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // =============================
+    // Scroll Reveal Animation
+    // =============================
+    const revealElements = document.querySelectorAll('.reveal');
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // Trigger counter animation when hero stats are visible
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const heroStats = document.querySelector('.hero-stats');
+    if (heroStats) statsObserver.observe(heroStats);
+
+    // =============================
+    // Contact Form Handler
+    // =============================
+    const contactForm = document.getElementById('contactForm');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const submitBtn = document.getElementById('form-submit');
+      const originalText = submitBtn.textContent;
+      submitBtn.textContent = '✓ Message Sent!';
+      submitBtn.style.background = 'linear-gradient(135deg, #00d4aa, #00b894)';
+
+      setTimeout(() => {
+        submitBtn.textContent = originalText;
+        submitBtn.style.background = '';
+        contactForm.reset();
+      }, 3000);
+    });
+
+    // =============================
+    // Smooth Scroll for Anchor Links
+    // =============================
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // =============================
+    // Tilt Effect on Project Cards
+    // =============================
+    document.querySelectorAll('.project-card, .skill-card').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateX = (y - centerY) / 20;
+        const rotateY = (centerX - x) / 20;
+
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-5px)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+
+    // =============================
+    // Parallax on Background Orbs
+    // =============================
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY;
+      const orbs = document.querySelectorAll('.bg-orb');
+      orbs.forEach((orb, index) => {
+        const speed = (index + 1) * 0.03;
+        orb.style.transform = `translateY(${scrollY * speed}px)`;
+      });
+    });
+  </script>
+</body>
+</html>
