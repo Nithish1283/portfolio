@@ -2,6 +2,10 @@
 <h3 align="center">Java Full-Stack & MERN Stack Developer | CSE (Data Science) Student</h3>
 
 <p align="center">
+  <img src="https://profile-counter.glitch.me/Nithish1283/count.svg" alt="Visitor Count" />
+</p>
+
+<p align="center">
   <a href="https://linkedin.com/in/gadde-nithish-8094783a3"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/Nithish1283"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:gaddenithishyadav@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
@@ -44,7 +48,7 @@ A motivated **Computer Science & Engineering (Data Science)** undergraduate at R
 ### 🍱 [Restaurant Management System](https://github.com/Nithish1283/RestaurantManagementSystem)
 > **Technologies:** Java, JSP, Servlets, JDBC, MySQL
 - Web-based restaurant platform for menu cataloging, customer orders, and automated bill calculations.
-- Designed MVC architecture with `PreparedStatements` for SQL injection prevention and secure session tracking.
+- Designed MVC architecture with `PreparedStatements` for SQL prevention and secure session tracking.
 
 ### 📊 [Student Performance Prediction System](https://github.com/Nithish1283/Students_Performance_Prediction)
 > **Technologies:** Python, Django, Machine Learning, MySQL
@@ -63,13 +67,13 @@ A motivated **Computer Science & Engineering (Data Science)** undergraduate at R
 
 ## 💼 Work Experience
 
-- **MERN Stack Developer Intern** — *Codec Technologies Pvt. Ltd. (Google for Education Partner) & AICTE*  
+- **MERN Stack Developer Intern** — *Codec Technologies Pvt. Ltd. (Google Partner & AICTE)*  
   `Dec 2025 – Mar 2026`  
-  *3-Month AICTE & ICAC approved internship program building full-stack web applications with MongoDB, Express, React, and Node.js.*
+  *3-Month AICTE approved internship program building full-stack MERN web applications.*
 
 - **Web Development Intern** — *ExcelR Edtech Pvt. Ltd. & APSCHE*  
   `July 2024`  
-  *Worked on responsive web design, interactive UI components, JavaScript DOM manipulation, and frontend debugging.*
+  *Worked on responsive web design, interactive UI components, JavaScript DOM, and debugging.*
 
 ---
 
@@ -81,6 +85,18 @@ A motivated **Computer Science & Engineering (Data Science)** undergraduate at R
 - 📜 **Data Science Master Virtual Internship** — EduSkills, AICTE & ALTAIR (2024, Grade: E - Excellent)
 - 📜 **Google AI-ML TECH CAMP** — Google for Developers & EduSkills (2024, C.No: `0808100824448`)
 - 📜 **Web Development & JavaScript Internship** — ExcelR Edtech & APSCHE (2024, Cert: `EXCELR-83482`)
+
+---
+
+## 📊 GitHub Statistics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nithish1283&show_icons=true&theme=tokyonight&count_private=true" alt="Gadde Nithish's GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nithish1283&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nithish1283&theme=tokyonight" alt="GitHub Streak" />
+</p>
 
 ---
 
